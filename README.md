@@ -66,3 +66,4 @@ K remains fixed at 3 because operations needs exactly three playbooks and the so
 ## Limitations
 
 The dataset is synthetic and cannot capture every operational behavior of a real logistics network. The classification test set contains only 41 delayed parcels, so precision and recall estimates have meaningful sampling uncertainty. The alert threshold is tuned on one 180-row validation split, making it sensitive to that split. Hub segmentation is based on only 24 hub-level observations and four aggregate measures. Finally, the current pipeline uses a fixed feature definition and does not model temporal drift beyond the engineered sale/weekend/dispatch-time signals.
+
